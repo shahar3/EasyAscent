@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "604165195046",
+    "firebase_url": "https://easyascent-aedf1.firebaseio.com",
+    "project_id": "easyascent-aedf1",
+    "storage_bucket": "easyascent-aedf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604165195046:android:56561e97b0bb7f1fcd6de7",
+        "android_client_info": {
+          "package_name": "com.scstudio.easy_ascent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604165195046-tfmpfctuelhqjca80tmj6s5t0fkkns8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scstudio.easy_ascent",
+            "certificate_hash": "b2d0aa40890ba33bd99079a9b5ed6529be088a30"
+          }
+        },
+        {
+          "client_id": "604165195046-3afbdqccnu4d1070siojv3ogf88v258i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6IONHvMhmJpzAJIrG_FvoExnhqfpOhno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604165195046-3afbdqccnu4d1070siojv3ogf88v258i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
