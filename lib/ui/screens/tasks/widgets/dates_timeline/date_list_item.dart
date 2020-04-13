@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
-import '../../../utils.dart';
+import '../../../../../utils.dart';
 
 class DateListItem extends StatelessWidget {
   final DateTime date;
@@ -34,7 +34,6 @@ class DateListItem extends StatelessWidget {
       child: InkWell(
         onTap: () {
           taskManager.setSelectedDate(date);
-          print("selected date: ${date.toString()}");
         },
         child: Container(
           decoration: BoxDecoration(

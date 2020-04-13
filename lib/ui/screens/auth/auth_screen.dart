@@ -1,4 +1,4 @@
-import 'package:easy_ascent/ui/widgets/auth_card.dart';
+import 'package:easy_ascent/ui/screens/auth/widgets/auth_card.dart';
 import 'package:flutter/material.dart';
 
 class AuthScreen extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:easy_ascent/core/enums/enums.dart';
 import 'package:easy_ascent/core/providers/authentication.dart';
-import 'package:easy_ascent/ui/views/home_screen.dart';
+import 'package:easy_ascent/ui/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

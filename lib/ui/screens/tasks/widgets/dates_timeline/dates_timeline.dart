@@ -1,10 +1,10 @@
 import 'package:easy_ascent/core/providers/task_manager.dart';
-import 'package:easy_ascent/ui/widgets/dates_timeline/date_list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../../constants.dart';
-import '../../../utils.dart';
+import '../../../../../constants.dart';
+import '../../../../../utils.dart';
+import './date_list_item.dart';
 
 class DatesTimeline extends StatelessWidget {
   final DateTime startDate = DateTime.now().subtract(Duration(days: 2));

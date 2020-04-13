@@ -40,7 +40,10 @@ class Auth implements BaseAuth {
   Future<User> getCurrentUser() async {
     FirebaseUser firebaseUser = await _firebaseAuth.currentUser();
     if (firebaseUser != null) {
-      _user = User(email: firebaseUser.email);
+      _user = User(
+        uid: firebaseUser.uid,
+        email: firebaseUser.email,
+      );
       _status = AuthStatus.Authenticated;
       return _user;
     } else {
@@ -56,7 +59,10 @@ class Auth implements BaseAuth {
           .user;
 
       //Convert FirebaseUser into user
-      _user = User(email: firebaseUser.email);
+      _user = User(
+        uid: firebaseUser.uid,
+        email: firebaseUser.email,
+      );
     } catch (e) {
       throw Exception(e.toString());
     }
@@ -95,7 +101,10 @@ class Auth implements BaseAuth {
       _user = null;
     } else {
       _status = AuthStatus.Authenticated;
-      _user = User(email: firebaseUser.email);
+      _user = User(
+        uid: firebaseUser.uid,
+        email: firebaseUser.email,
+      );
     }
     if (_notifyListeners != null) {
       _notifyListeners();

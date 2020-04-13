@@ -1,8 +1,8 @@
 import 'package:easy_ascent/ui/shared/app_side_drawer.dart';
-import 'package:easy_ascent/ui/views/achievements_screen.dart';
-import 'package:easy_ascent/ui/views/goals_screen.dart';
-import 'package:easy_ascent/ui/views/settings_screen.dart';
-import 'package:easy_ascent/ui/views/tasks_screen.dart';
+import 'package:easy_ascent/ui/screens/achievements/achievements_screen.dart';
+import 'package:easy_ascent/ui/screens/goals/goals_screen.dart';
+import 'package:easy_ascent/ui/screens/settings/settings_screen.dart';
+import 'package:easy_ascent/ui/screens/tasks/tasks_screen.dart';
 import 'package:easy_ascent/ui/widgets/ReusableCard.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

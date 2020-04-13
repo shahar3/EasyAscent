@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class Constants {
   static const String APP_NAME = "easyascent";
 
@@ -9,4 +11,10 @@ class Constants {
 
   //For DatesTimeline widget
   static const MAXIMUM_DAYS_COUNT = 30;
+
+  //Styles
+  static const FORM_INPUT_TEXT_STYLE = TextStyle(
+    color: Colors.white,
+    fontSize: 22,
+  );
 }

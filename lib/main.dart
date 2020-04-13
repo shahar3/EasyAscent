@@ -2,14 +2,14 @@ import 'package:easy_ascent/core/enums/enums.dart';
 import 'package:easy_ascent/core/providers/authentication.dart';
 import 'package:easy_ascent/core/providers/task_manager.dart';
 import 'package:easy_ascent/locator.dart';
-import 'package:easy_ascent/ui/views/achievements_screen.dart';
-import 'package:easy_ascent/ui/views/add_task_screen.dart';
-import 'package:easy_ascent/ui/views/auth_screen.dart';
-import 'package:easy_ascent/ui/views/goals_screen.dart';
-import 'package:easy_ascent/ui/views/home_screen.dart';
-import 'package:easy_ascent/ui/views/landing_screen.dart';
-import 'package:easy_ascent/ui/views/settings_screen.dart';
-import 'package:easy_ascent/ui/views/tasks_screen.dart';
+import 'package:easy_ascent/ui/screens/achievements/achievements_screen.dart';
+import 'package:easy_ascent/ui/screens/add_task/add_task_screen.dart';
+import 'package:easy_ascent/ui/screens/auth/auth_screen.dart';
+import 'package:easy_ascent/ui/screens/goals/goals_screen.dart';
+import 'package:easy_ascent/ui/screens/home/home_screen.dart';
+import 'package:easy_ascent/ui/screens/landing/landing_screen.dart';
+import 'package:easy_ascent/ui/screens/settings/settings_screen.dart';
+import 'package:easy_ascent/ui/screens/tasks/tasks_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
@@ -39,6 +39,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primaryColor: Color(0xff00adb5),
           accentColor: Color(0xffeeeeee),
+          canvasColor: Color(0xff00adb5),
         ),
         home: LandingScreen(),
         routes: {
