@@ -58,7 +58,12 @@ class AppSideDrawer extends StatelessWidget {
               color: Theme.of(context).primaryColor.withOpacity(0.3),
               padding: EdgeInsets.only(bottom: 10),
               child: Center(
-                child: Text(authProvider.user.email),
+                child: Text(
+                  authProvider.user.email,
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
               ),
             ),
             Expanded(

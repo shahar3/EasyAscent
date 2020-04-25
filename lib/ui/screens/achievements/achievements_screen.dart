@@ -24,7 +24,7 @@ class AchievementsScreen extends StatelessWidget {
       drawerEdgeDragWidth: 0,
       drawer: AppSideDrawer(),
       body: PaddedContent(
-        childWidget: FutureBuilder(
+        child: FutureBuilder(
           future: taskManager.getUserTasksByCategory(userId),
           builder: (ctx, asyncSnapshot) {
             if (asyncSnapshot.connectionState == ConnectionState.done) {

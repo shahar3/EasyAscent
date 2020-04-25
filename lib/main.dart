@@ -1,5 +1,6 @@
 import 'package:easy_ascent/core/enums/enums.dart';
 import 'package:easy_ascent/core/providers/authentication.dart';
+import 'package:easy_ascent/core/providers/goal_manager.dart';
 import 'package:easy_ascent/core/providers/task_manager.dart';
 import 'package:easy_ascent/locator.dart';
 import 'package:easy_ascent/ui/screens/achievements/achievements_screen.dart';
@@ -33,6 +34,9 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider.value(
           value: TaskManager(),
         ),
+        ChangeNotifierProvider.value(
+          value: GoalManager(),
+        )
       ],
       child: MaterialApp(
         title: 'Easy Ascent',

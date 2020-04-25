@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class PaddedContent extends StatelessWidget {
-  final Widget childWidget;
+  final Widget child;
 
-  PaddedContent({this.childWidget});
+  PaddedContent({this.child});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class PaddedContent extends StatelessWidget {
           ),
           color: Colors.white,
         ),
-        child: childWidget,
+        child: child,
       ),
     );
   }

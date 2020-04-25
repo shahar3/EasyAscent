@@ -50,7 +50,7 @@ class _TasksScreenState extends State<TasksScreen> {
           ),
           Expanded(
             child: PaddedContent(
-              childWidget: Column(
+              child: Column(
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.all(8.0),
